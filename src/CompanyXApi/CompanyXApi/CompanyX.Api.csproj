@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="2.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="2.4.0" />
+    <PackageReference Include="WebApiContrib.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyX.Api.Models\CompanyX.Api.Models.csproj" />
+    <ProjectReference Include="..\CompanyX.Domain\CompanyX.Domain.csproj" />
+    <ProjectReference Include="..\CompanyX.Services\CompanyX.Services.csproj" />
+    <ProjectReference Include="..\CompanyXApi.Base\CompanyX.Base.csproj" />
+    <ProjectReference Include="..\CompanyXApi.Resource\CompanyX.Resource.csproj" />
+  </ItemGroup>
+
+</Project>

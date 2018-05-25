@@ -1,0 +1,341 @@
+2018-05-23T19:18:13.5753598+02:00  [WRN] Overriding address(es) '"http://localhost:5000"'. Binding to endpoints defined in "UseKestrel()" instead. (1f05ff23)
+2018-05-23T19:18:48.6998288+02:00 0HLE0Q4VKR136:00000001 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/   (ca22a1cb)
+2018-05-23T19:18:48.7545278+02:00 0HLE0Q4VKR136:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://127.0.0.1:44354/ (3b5ca34b)
+2018-05-23T19:18:48.8272879+02:00 0HLE0Q4VKR136:00000001 [INF] Request finished in 130.0463ms 404  (791a596a)
+2018-05-23T19:18:53.4987789+02:00 0HLE0Q4VKR136:00000002 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger   (ca22a1cb)
+2018-05-23T19:18:53.4997620+02:00 0HLE0Q4VKR136:00000002 [INF] Request finished in 0.9669ms 301  (791a596a)
+2018-05-23T19:18:53.5044874+02:00 0HLE0Q4VKR136:00000003 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/   (ca22a1cb)
+2018-05-23T19:18:53.5140891+02:00 0HLE0Q4VKR136:00000003 [INF] Request finished in 9.5954ms 200 text/html (791a596a)
+2018-05-23T19:18:53.5432636+02:00 0HLE0Q4VKR137:00000001 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2018-05-23T19:18:53.5435525+02:00 0HLE0Q4VKR136:00000004 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/swagger-ui.css   (ca22a1cb)
+2018-05-23T19:18:53.5593719+02:00 0HLE0Q4VKR138:00000001 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2018-05-23T19:18:53.6168878+02:00 0HLE0Q4VKR136:00000004 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:18:53.6202785+02:00 0HLE0Q4VKR136:00000004 [INF] Request finished in 76.7373ms 200 text/css (791a596a)
+2018-05-23T19:18:53.6634946+02:00 0HLE0Q4VKR138:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:18:53.6637483+02:00 0HLE0Q4VKR138:00000001 [INF] Request finished in 104.4071ms 200 application/javascript (791a596a)
+2018-05-23T19:18:53.7675917+02:00 0HLE0Q4VKR137:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:18:53.7677749+02:00 0HLE0Q4VKR137:00000001 [INF] Request finished in 224.7158ms 200 application/javascript (791a596a)
+2018-05-23T19:18:54.2206897+02:00 0HLE0Q4VKR137:00000002 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/v1/swagger.json   (ca22a1cb)
+2018-05-23T19:18:54.3109619+02:00 0HLE0Q4VKR138:00000002 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/favicon-32x32.png   (ca22a1cb)
+2018-05-23T19:18:54.3190599+02:00 0HLE0Q4VKR138:00000002 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:18:54.3191688+02:00 0HLE0Q4VKR138:00000002 [INF] Request finished in 8.3436ms 200 image/png (791a596a)
+2018-05-23T19:18:54.3250169+02:00 0HLE0Q4VKR138:00000003 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:44354/swagger/favicon-16x16.png   (ca22a1cb)
+2018-05-23T19:18:54.3252922+02:00 0HLE0Q4VKR138:00000003 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:18:54.3253585+02:00 0HLE0Q4VKR138:00000003 [INF] Request finished in 0.4112ms 200 image/png (791a596a)
+2018-05-23T19:18:54.4996004+02:00 0HLE0Q4VKR137:00000002 [INF] Request finished in 278.9246ms 200 application/json (791a596a)
+2018-05-23T19:21:20.6538548+02:00  [WRN] Overriding address(es) '"http://local.companyx.api.com:44354/"'. Binding to endpoints defined in "UseKestrel()" instead. (1f05ff23)
+2018-05-23T19:21:23.5589807+02:00 0HLE0Q6D44J0I:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/   (ca22a1cb)
+2018-05-23T19:21:23.6016477+02:00 0HLE0Q6D44J0I:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://local.companyx.api.com:44354/ (3b5ca34b)
+2018-05-23T19:21:23.6602157+02:00 0HLE0Q6D44J0I:00000001 [INF] Request finished in 104.7063ms 404  (791a596a)
+2018-05-23T19:21:25.2507561+02:00 0HLE0Q6D44J0J:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/   (ca22a1cb)
+2018-05-23T19:21:25.2510823+02:00 0HLE0Q6D44J0J:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://local.companyx.api.com:44354/ (3b5ca34b)
+2018-05-23T19:21:25.2516168+02:00 0HLE0Q6D44J0J:00000001 [INF] Request finished in 0.9002ms 404  (791a596a)
+2018-05-23T19:21:33.8930218+02:00 0HLE0Q6D44J0J:00000002 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger   (ca22a1cb)
+2018-05-23T19:21:33.8939060+02:00 0HLE0Q6D44J0J:00000002 [INF] Request finished in 0.9039ms 301  (791a596a)
+2018-05-23T19:21:33.8999641+02:00 0HLE0Q6D44J0J:00000003 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/   (ca22a1cb)
+2018-05-23T19:21:33.9123748+02:00 0HLE0Q6D44J0J:00000003 [INF] Request finished in 12.4242ms 200 text/html (791a596a)
+2018-05-23T19:21:33.9386572+02:00 0HLE0Q6D44J0K:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2018-05-23T19:21:33.9389259+02:00 0HLE0Q6D44J0L:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2018-05-23T19:21:33.9392159+02:00 0HLE0Q6D44J0J:00000004 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/swagger-ui.css   (ca22a1cb)
+2018-05-23T19:21:33.9704990+02:00 0HLE0Q6D44J0J:00000004 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:21:33.9730719+02:00 0HLE0Q6D44J0J:00000004 [INF] Request finished in 33.8574ms 200 text/css (791a596a)
+2018-05-23T19:21:34.0087353+02:00 0HLE0Q6D44J0L:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:21:34.0088863+02:00 0HLE0Q6D44J0L:00000001 [INF] Request finished in 70.0978ms 200 application/javascript (791a596a)
+2018-05-23T19:21:34.1054077+02:00 0HLE0Q6D44J0K:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:21:34.1056350+02:00 0HLE0Q6D44J0K:00000001 [INF] Request finished in 167.0165ms 200 application/javascript (791a596a)
+2018-05-23T19:21:34.5839538+02:00 0HLE0Q6D44J0K:00000002 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/v1/swagger.json   (ca22a1cb)
+2018-05-23T19:21:34.6583044+02:00 0HLE0Q6D44J0L:00000002 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/favicon-32x32.png   (ca22a1cb)
+2018-05-23T19:21:34.6591197+02:00 0HLE0Q6D44J0L:00000002 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:21:34.6592205+02:00 0HLE0Q6D44J0L:00000002 [INF] Request finished in 1.2217ms 200 image/png (791a596a)
+2018-05-23T19:21:34.6693287+02:00 0HLE0Q6D44J0L:00000003 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/swagger/favicon-16x16.png   (ca22a1cb)
+2018-05-23T19:21:34.6769136+02:00 0HLE0Q6D44J0L:00000003 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2018-05-23T19:21:34.6770599+02:00 0HLE0Q6D44J0L:00000003 [INF] Request finished in 10.8527ms 200 image/png (791a596a)
+2018-05-23T19:21:34.8084445+02:00 0HLE0Q6D44J0K:00000002 [INF] Request finished in 224.5255ms 200 application/json (791a596a)
+2018-05-23T19:23:08.3917017+02:00 0HLE0Q6D44J0K:00000003 [INF] Request starting HTTP/1.1 PUT http://local.companyx.api.com:44354/api/v1/orders application/json-patch+json 1349 (ca22a1cb)
+2018-05-23T19:23:08.4019016+02:00 0HLE0Q6D44J0K:00000003 [INF] REQUEST METHOD: PUT, REQUEST BODY: { "Partner": "sample string 1",
+"OrderID": "sample string 7",
+"TypeOfOrder": "sample string 8",
+"SubmittedBy": "sample string 11",
+"CompanyID": "sample string 28",
+"CompanyName": "sample string 29",
+"LineItems": [
+{
+"ID": 1,
+"ProductID": "sample string 17",
+"ProductType": "sample string 18",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"WebsiteDetails": {
+"TemplateId": "sample string 245",
+"WebsiteBusinessName": "sample string 245",
+"WebsiteAddressLine1": "sample string 246",
+"WebsiteAddressLine2": "sample string 247",
+"WebsiteCity": "sample string 248",
+"WebsiteState": "sample string 249",
+"WebsitePostCode": "sample string 250",
+"WebsitePhone": "sample string 257",
+"WebsiteEmail": "sample string 258",
+"WebsiteMobile": "sample string 259"
+}
+},
+{
+"ID": 1,
+"ProductID": "6789",
+"ProductType": "Paid Search",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"AdWordCampaign": {
+"CampaignName": "sample string 1",
+"CampaignAddressLine1": "sample string 2",
+"CampaignPostCode": "sample string 6",
+"CampaignRadius": "sample string 13",
+"LeadPhoneNumber": "sample string 14",
+"SMSPhoneNumber": "sample string 15",
+"UniqueSellingPoint1": "sample string 18",
+"UniqueSellingPoint2": "sample string 19",
+"UniqueSellingPoint3": "sample string 20",
+"Offer": "sample string 21",
+"DestinationURL": "sample string 23"
+}
+}
+]
+}, REQUEST URL: http://local.companyx.api.com:44354/api/v1/orders (3b5ca34b)
+2018-05-23T19:23:08.5206545+02:00 0HLE0Q6D44J0K:00000003 [INF] Route matched with "{action = \"Orders\", controller = \"Orders\"}". Executing action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" (a44c0341)
+2018-05-23T19:23:08.5714288+02:00 0HLE0Q6D44J0K:00000003 [INF] Executing action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" with arguments (["CompanyX.Api.Models.Orders.OrderModel"]) - Validation state: Valid (4e3479ed)
+2018-05-23T19:25:27.9228881+02:00 0HLE0Q6D44J0K:00000003 [INF] {"Partner":"sample string 1","OrderId":"sample string 7","TypeOfOrder":"sample string 8","SubmittedBy":"sample string 11","CompanyId":"sample string 28","CompanyName":"sample string 29","LineItems":[{"Id":1,"ProductId":"sample string 17","ProductType":"sample string 18","Notes":"sample string 53","Category":"sample string 245"},{"Id":1,"ProductId":"6789","ProductType":"Paid Search","Notes":"sample string 53","Category":"sample string 245"}]} (0b67e90e)
+2018-05-23T19:25:35.7695920+02:00 0HLE0Q6D44J0K:00000003 [INF] Executed action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 147194.0071ms. (50a9e262)
+2018-05-23T19:25:35.7879146+02:00 0HLE0Q6D44J0K:00000003 [INF] Executing ObjectResult, writing value of type '"CompanyX.Api.Models.Response.ApiResponse"'. (8a1b66c8)
+2018-05-23T19:25:35.8170645+02:00 0HLE0Q6D44J0K:00000003 [INF] Executed action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" in 147293.156ms (afa2e885)
+2018-05-23T19:25:35.8205172+02:00 0HLE0Q6D44J0K:00000003 [INF] Request finished in 147428.8532ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-23T19:27:32.6710677+02:00  [WRN] Overriding address(es) '"http://local.companyx.api.com:44354/"'. Binding to endpoints defined in "UseKestrel()" instead. (1f05ff23)
+2018-05-23T19:27:35.3936529+02:00 0HLE0Q9RTDLVU:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/   (ca22a1cb)
+2018-05-23T19:27:35.4351799+02:00 0HLE0Q9RTDLVU:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://local.companyx.api.com:44354/ (3b5ca34b)
+2018-05-23T19:27:35.4957710+02:00 0HLE0Q9RTDLVU:00000001 [INF] Request finished in 105.6091ms 404  (791a596a)
+2018-05-23T19:27:40.7690972+02:00 0HLE0Q9RTDM00:00000001 [INF] Request starting HTTP/1.1 PUT http://local.companyx.api.com:44354/api/v1/orders application/json-patch+json 1349 (ca22a1cb)
+2018-05-23T19:27:40.7801050+02:00 0HLE0Q9RTDM00:00000001 [INF] REQUEST METHOD: PUT, REQUEST BODY: { "Partner": "sample string 1",
+"OrderID": "sample string 7",
+"TypeOfOrder": "sample string 8",
+"SubmittedBy": "sample string 11",
+"CompanyID": "sample string 28",
+"CompanyName": "sample string 29",
+"LineItems": [
+{
+"ID": 1,
+"ProductID": "sample string 17",
+"ProductType": "sample string 18",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"WebsiteDetails": {
+"TemplateId": "sample string 245",
+"WebsiteBusinessName": "sample string 245",
+"WebsiteAddressLine1": "sample string 246",
+"WebsiteAddressLine2": "sample string 247",
+"WebsiteCity": "sample string 248",
+"WebsiteState": "sample string 249",
+"WebsitePostCode": "sample string 250",
+"WebsitePhone": "sample string 257",
+"WebsiteEmail": "sample string 258",
+"WebsiteMobile": "sample string 259"
+}
+},
+{
+"ID": 1,
+"ProductID": "6789",
+"ProductType": "Paid Search",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"AdWordCampaign": {
+"CampaignName": "sample string 1",
+"CampaignAddressLine1": "sample string 2",
+"CampaignPostCode": "sample string 6",
+"CampaignRadius": "sample string 13",
+"LeadPhoneNumber": "sample string 14",
+"SMSPhoneNumber": "sample string 15",
+"UniqueSellingPoint1": "sample string 18",
+"UniqueSellingPoint2": "sample string 19",
+"UniqueSellingPoint3": "sample string 20",
+"Offer": "sample string 21",
+"DestinationURL": "sample string 23"
+}
+}
+]
+}, REQUEST URL: http://local.companyx.api.com:44354/api/v1/orders (3b5ca34b)
+2018-05-23T19:27:40.8705169+02:00 0HLE0Q9RTDM00:00000001 [INF] Route matched with "{action = \"Orders\", controller = \"Orders\"}". Executing action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" (a44c0341)
+2018-05-23T19:27:40.9267785+02:00 0HLE0Q9RTDM00:00000001 [INF] Executing action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" with arguments (["CompanyX.Api.Models.Orders.OrderModel"]) - Validation state: Valid (4e3479ed)
+2018-05-23T19:28:06.6488849+02:00 0HLE0Q9RTDM00:00000001 [INF] {"Partner":"sample string 1","OrderId":"sample string 7","TypeOfOrder":"sample string 8","SubmittedBy":"sample string 11","CompanyId":"sample string 28","CompanyName":"sample string 29","LineItems":[{"ID":1,"ProductID":"sample string 17","ProductType":"sample string 18","Notes":"sample string 53","Category":"sample string 245","WebsiteDetails":{"TemplateId":"sample string 245","WebsiteBusinessName":"sample string 245","WebsiteAddressLine1":"sample string 246","WebsiteAddressLine2":"sample string 247","WebsiteCity":"sample string 248","WebsiteState":"sample string 249","WebsitePostCode":"sample string 250","WebsitePhone":"sample string 257","WebsiteEmail":"sample string 258","WebsiteMobile":"sample string 259"}},{"ID":1,"ProductID":"6789","ProductType":"Paid Search","Notes":"sample string 53","Category":"sample string 245","AdWordCampaign":{"CampaignName":"sample string 1","CampaignAddressLine1":"sample string 2","CampaignPostCode":"sample string 6","CampaignRadius":"sample string 13","LeadPhoneNumber":"sample string 14","SMSPhoneNumber":"sample string 15","UniqueSellingPoint1":"sample string 18","UniqueSellingPoint2":"sample string 19","UniqueSellingPoint3":"sample string 20","Offer":"sample string 21","DestinationURL":"sample string 23"}}]} (143bea97)
+2018-05-23T19:28:08.1065770+02:00 0HLE0Q9RTDM00:00000001 [INF] Executed action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 27177.0874ms. (50a9e262)
+2018-05-23T19:28:08.1223535+02:00 0HLE0Q9RTDM00:00000001 [INF] Executing ObjectResult, writing value of type '"CompanyX.Api.Models.Response.ApiResponse"'. (8a1b66c8)
+2018-05-23T19:28:08.1344085+02:00 0HLE0Q9RTDM00:00000001 [INF] Executed action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" in 27260.4012ms (afa2e885)
+2018-05-23T19:28:08.1391760+02:00 0HLE0Q9RTDM00:00000001 [INF] Request finished in 27370.0411ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-23T19:33:48.8072605+02:00  [WRN] Overriding address(es) '"http://local.companyx.api.com:44354/"'. Binding to endpoints defined in "UseKestrel()" instead. (1f05ff23)
+2018-05-23T19:33:50.6592160+02:00 0HLE0QDBV3PH8:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/   (ca22a1cb)
+2018-05-23T19:33:50.6976302+02:00 0HLE0QDBV3PH8:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://local.companyx.api.com:44354/ (3b5ca34b)
+2018-05-23T19:33:50.7456610+02:00 0HLE0QDBV3PH8:00000001 [INF] Request finished in 89.5662ms 404  (791a596a)
+2018-05-23T19:33:55.4861282+02:00 0HLE0QDBV3PHA:00000001 [INF] Request starting HTTP/1.1 PUT http://local.companyx.api.com:44354/api/v1/orders application/json-patch+json 1349 (ca22a1cb)
+2018-05-23T19:33:55.4993812+02:00 0HLE0QDBV3PHA:00000001 [INF] REQUEST METHOD: PUT, REQUEST BODY: { "Partner": "sample string 1",
+"OrderID": "sample string 7",
+"TypeOfOrder": "sample string 8",
+"SubmittedBy": "sample string 11",
+"CompanyID": "sample string 28",
+"CompanyName": "sample string 29",
+"LineItems": [
+{
+"ID": 1,
+"ProductID": "sample string 17",
+"ProductType": "sample string 18",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"WebsiteDetails": {
+"TemplateId": "sample string 245",
+"WebsiteBusinessName": "sample string 245",
+"WebsiteAddressLine1": "sample string 246",
+"WebsiteAddressLine2": "sample string 247",
+"WebsiteCity": "sample string 248",
+"WebsiteState": "sample string 249",
+"WebsitePostCode": "sample string 250",
+"WebsitePhone": "sample string 257",
+"WebsiteEmail": "sample string 258",
+"WebsiteMobile": "sample string 259"
+}
+},
+{
+"ID": 1,
+"ProductID": "6789",
+"ProductType": "Paid Search",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"AdWordCampaign": {
+"CampaignName": "sample string 1",
+"CampaignAddressLine1": "sample string 2",
+"CampaignPostCode": "sample string 6",
+"CampaignRadius": "sample string 13",
+"LeadPhoneNumber": "sample string 14",
+"SMSPhoneNumber": "sample string 15",
+"UniqueSellingPoint1": "sample string 18",
+"UniqueSellingPoint2": "sample string 19",
+"UniqueSellingPoint3": "sample string 20",
+"Offer": "sample string 21",
+"DestinationURL": "sample string 23"
+}
+}
+]
+}, REQUEST URL: http://local.companyx.api.com:44354/api/v1/orders (3b5ca34b)
+2018-05-23T19:33:55.5719206+02:00 0HLE0QDBV3PHA:00000001 [INF] Route matched with "{action = \"Orders\", controller = \"Orders\"}". Executing action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" (a44c0341)
+2018-05-23T19:33:55.6218115+02:00 0HLE0QDBV3PHA:00000001 [INF] Executing action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" with arguments (["CompanyX.Api.Models.Orders.OrderModel"]) - Validation state: Valid (4e3479ed)
+2018-05-23T19:33:55.6287105+02:00 0HLE0QDBV3PHA:00000001 [INF] {"Partner":"sample string 1","OrderId":"sample string 7","TypeOfOrder":"sample string 8","SubmittedBy":"sample string 11","CompanyId":"sample string 28","CompanyName":"sample string 29","LineItems":[{"Id":1,"ProductId":"sample string 17","ProductType":"sample string 18","Notes":"sample string 53","Category":"sample string 245"},{"Id":1,"ProductId":"6789","ProductType":"Paid Search","Notes":"sample string 53","Category":"sample string 245"}]} (0b67e90e)
+2018-05-23T19:33:55.6314172+02:00 0HLE0QDBV3PHA:00000001 [INF] Executed action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.4122ms. (50a9e262)
+2018-05-23T19:33:55.6433381+02:00 0HLE0QDBV3PHA:00000001 [INF] Executing ObjectResult, writing value of type '"CompanyX.Api.Models.Response.ApiResponse"'. (8a1b66c8)
+2018-05-23T19:33:55.6529046+02:00 0HLE0QDBV3PHA:00000001 [INF] Executed action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" in 78.7996ms (afa2e885)
+2018-05-23T19:33:55.6555355+02:00 0HLE0QDBV3PHA:00000001 [INF] Request finished in 169.5098ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-23T19:34:14.0265351+02:00 0HLE0QDBV3PHA:00000002 [INF] Request starting HTTP/1.1 PUT http://local.companyx.api.com:44354/api/v1/orders application/json-patch+json 1349 (ca22a1cb)
+2018-05-23T19:34:14.0273345+02:00 0HLE0QDBV3PHA:00000002 [INF] REQUEST METHOD: PUT, REQUEST BODY: { "Partner": "sample string 1",
+"OrderID": "sample string 7",
+"TypeOfOrder": "sample string 8",
+"SubmittedBy": "sample string 11",
+"CompanyID": "sample string 28",
+"CompanyName": "sample string 29",
+"LineItems": [
+{
+"ID": 1,
+"ProductID": "sample string 17",
+"ProductType": "sample string 18",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"WebsiteDetails": {
+"TemplateId": "sample string 245",
+"WebsiteBusinessName": "sample string 245",
+"WebsiteAddressLine1": "sample string 246",
+"WebsiteAddressLine2": "sample string 247",
+"WebsiteCity": "sample string 248",
+"WebsiteState": "sample string 249",
+"WebsitePostCode": "sample string 250",
+"WebsitePhone": "sample string 257",
+"WebsiteEmail": "sample string 258",
+"WebsiteMobile": "sample string 259"
+}
+},
+{
+"ID": 1,
+"ProductID": "6789",
+"ProductType": "Paid Search",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"AdWordCampaign": {
+"CampaignName": "sample string 1",
+"CampaignAddressLine1": "sample string 2",
+"CampaignPostCode": "sample string 6",
+"CampaignRadius": "sample string 13",
+"LeadPhoneNumber": "sample string 14",
+"SMSPhoneNumber": "sample string 15",
+"UniqueSellingPoint1": "sample string 18",
+"UniqueSellingPoint2": "sample string 19",
+"UniqueSellingPoint3": "sample string 20",
+"Offer": "sample string 21",
+"DestinationURL": "sample string 23"
+}
+}
+]
+}, REQUEST URL: http://local.companyx.api.com:44354/api/v1/orders (3b5ca34b)
+2018-05-23T19:34:14.0284401+02:00 0HLE0QDBV3PHA:00000002 [INF] Route matched with "{action = \"Orders\", controller = \"Orders\"}". Executing action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" (a44c0341)
+2018-05-23T19:34:14.0297330+02:00 0HLE0QDBV3PHA:00000002 [INF] Executing action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" with arguments (["CompanyX.Api.Models.Orders.OrderModel"]) - Validation state: Valid (4e3479ed)
+2018-05-23T19:34:14.0299075+02:00 0HLE0QDBV3PHA:00000002 [INF] {"Partner":"sample string 1","OrderId":"sample string 7","TypeOfOrder":"sample string 8","SubmittedBy":"sample string 11","CompanyId":"sample string 28","CompanyName":"sample string 29","LineItems":[{"Id":1,"ProductId":"sample string 17","ProductType":"sample string 18","Notes":"sample string 53","Category":"sample string 245"},{"Id":1,"ProductId":"6789","ProductType":"Paid Search","Notes":"sample string 53","Category":"sample string 245"}]} (0b67e90e)
+2018-05-23T19:34:31.5897499+02:00 0HLE0QDBV3PHA:00000002 [INF] Executed action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 17559.8401ms. (50a9e262)
+2018-05-23T19:34:31.5964506+02:00 0HLE0QDBV3PHA:00000002 [INF] Executing ObjectResult, writing value of type '"CompanyX.Api.Models.Response.ApiResponse"'. (8a1b66c8)
+2018-05-23T19:34:31.5970954+02:00 0HLE0QDBV3PHA:00000002 [INF] Executed action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" in 17568.528ms (afa2e885)
+2018-05-23T19:34:31.5972827+02:00 0HLE0QDBV3PHA:00000002 [INF] Request finished in 17570.8263ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-23T19:54:57.5879614+02:00  [WRN] Overriding address(es) '"http://local.companyx.api.com:44354/"'. Binding to endpoints defined in "UseKestrel()" instead. (1f05ff23)
+2018-05-23T19:54:59.9486288+02:00 0HLE0QP675OAV:00000001 [INF] Request starting HTTP/1.1 GET http://local.companyx.api.com:44354/   (ca22a1cb)
+2018-05-23T19:54:59.9802513+02:00 0HLE0QP675OAV:00000001 [INF] REQUEST METHOD: GET, REQUEST BODY: , REQUEST URL: http://local.companyx.api.com:44354/ (3b5ca34b)
+2018-05-23T19:55:00.0361108+02:00 0HLE0QP675OAV:00000001 [INF] Request finished in 90.5973ms 404  (791a596a)
+2018-05-23T19:55:04.8526899+02:00 0HLE0QP675OB1:00000001 [INF] Request starting HTTP/1.1 PUT http://local.companyx.api.com:44354/api/v1/orders application/json-patch+json 1349 (ca22a1cb)
+2018-05-23T19:55:04.8663124+02:00 0HLE0QP675OB1:00000001 [INF] REQUEST METHOD: PUT, REQUEST BODY: { "Partner": "sample string 1",
+"OrderID": "sample string 7",
+"TypeOfOrder": "sample string 8",
+"SubmittedBy": "sample string 11",
+"CompanyID": "sample string 28",
+"CompanyName": "sample string 29",
+"LineItems": [
+{
+"ID": 1,
+"ProductID": "sample string 17",
+"ProductType": "sample string 18",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"WebsiteDetails": {
+"TemplateId": "sample string 245",
+"WebsiteBusinessName": "sample string 245",
+"WebsiteAddressLine1": "sample string 246",
+"WebsiteAddressLine2": "sample string 247",
+"WebsiteCity": "sample string 248",
+"WebsiteState": "sample string 249",
+"WebsitePostCode": "sample string 250",
+"WebsitePhone": "sample string 257",
+"WebsiteEmail": "sample string 258",
+"WebsiteMobile": "sample string 259"
+}
+},
+{
+"ID": 1,
+"ProductID": "6789",
+"ProductType": "Paid Search",
+"Notes": "sample string 53",
+"Category": "sample string 245",
+"AdWordCampaign": {
+"CampaignName": "sample string 1",
+"CampaignAddressLine1": "sample string 2",
+"CampaignPostCode": "sample string 6",
+"CampaignRadius": "sample string 13",
+"LeadPhoneNumber": "sample string 14",
+"SMSPhoneNumber": "sample string 15",
+"UniqueSellingPoint1": "sample string 18",
+"UniqueSellingPoint2": "sample string 19",
+"UniqueSellingPoint3": "sample string 20",
+"Offer": "sample string 21",
+"DestinationURL": "sample string 23"
+}
+}
+]
+}, REQUEST URL: http://local.companyx.api.com:44354/api/v1/orders (3b5ca34b)
+2018-05-23T19:55:04.9320650+02:00 0HLE0QP675OB1:00000001 [INF] Route matched with "{action = \"Orders\", controller = \"Orders\"}". Executing action "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" (a44c0341)
+2018-05-23T19:55:04.9880777+02:00 0HLE0QP675OB1:00000001 [INF] Executing action method "CompanyX.Api.V1.Controllers.OrdersController.Orders (CompanyX.Api)" with arguments (["CompanyX.Api.Models.Orders.OrderModel"]) - Validation state: Valid (4e3479ed)
+2018-05-23T19:55:04.9991560+02:00 0HLE0QP675OB1:00000001 [INF] {"Partner":"sample string 1","OrderId":"sample string 7","TypeOfOrder":"sample string 8","SubmittedBy":"sample string 11","CompanyId":"sample string 28","CompanyName":"sample string 29","LineItems":[{"WebsiteDetails":{"TemplateId":"sample string 245","WebsiteBusinessName":"sample string 245","WebsiteAddressLine1":"sample string 246","WebsiteAddressLine2":"sample string 247","WebsiteCity":"sample string 248","WebsiteState":"sample string 249","WebsitePostCode":"sample string 250","WebsitePhone":"sample string 257","WebsiteEmail":"sample string 258","WebsiteMobile":"sample string 259"},"Id":1,"ProductId":"sample string 17","ProductType":"sample string 18","Notes":"sample string 53","Category":"sample string 245"},{"AdWordCampaign":{"CampaignName":"sample string 1","CampaignAddressLine1":"sample string 2","CampaignPostCode":"sample string 6","CampaignRadius":"sample string 13","LeadPhoneNumber":"sample string 14","SMSPhoneNumber":"sample string 15","UniqueSellingPoint1":"sample string 18","UniqueSellingPoint2":"sample string 19","UniqueSellingPoint3":"sample string 20","Offer":"sample string 21","DestinationURL":"sample string 23"},"Id":1,"ProductId":"6789","ProductType":"Paid Search","Notes":"sample string 53","Category":"sample string 245"}]} (cec141ce)

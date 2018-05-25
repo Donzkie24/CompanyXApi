@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyX.Api.Models\CompanyX.Api.Models.csproj" />
+    <ProjectReference Include="..\CompanyX.Dal\CompanyX.Dal.csproj" />
+    <ProjectReference Include="..\CompanyX.Domain\CompanyX.Domain.csproj" />
+    <ProjectReference Include="..\CompanyXApi.Base\CompanyX.Base.csproj" />
+    <ProjectReference Include="..\CompanyXApi.Resource\CompanyX.Resource.csproj" />
+  </ItemGroup>
+
+</Project>
