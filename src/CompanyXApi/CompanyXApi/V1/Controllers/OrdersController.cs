@@ -1,9 +1,9 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Threading.Tasks;
 using CompanyX.Api.Infrastructure.Filters;
 using CompanyX.Api.Models.Orders;
 using CompanyX.Api.Models.Response;
+using CompanyX.Base.Helpers;
 using CompanyX.Resource;
 using CompanyX.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -46,6 +46,8 @@ namespace CompanyX.Api.V1.Controllers
         [ProducesResponseType(typeof(ApiResponse), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> Orders([FromBody]OrderModel order)
         {
+            Guard.IsNotNull(order, ()=> order);
+
             Logger.Log(LogLevel.Debug, JsonConvert.SerializeObject(order));
 
             await _orderService.SaveOrderAsync(order).ConfigureAwait(false);

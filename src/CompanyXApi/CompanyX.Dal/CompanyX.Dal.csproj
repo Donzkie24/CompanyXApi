@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CompanyX.Domain\CompanyX.Domain.csproj" />
+    <ProjectReference Include="..\CompanyXApi.Base\CompanyX.Base.csproj" />
   </ItemGroup>
 
 </Project>

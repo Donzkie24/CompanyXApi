@@ -18,8 +18,8 @@ namespace CompanyX.Services
         /// <summary>
         /// Save order
         /// </summary>
-        /// <returns></returns>
-        Task SaveOrderAsync(OrderModel orderModel);
+        /// <returns>Order</returns>
+        Task<Order> SaveOrderAsync(OrderModel orderModel);
     }
     #endregion
 
@@ -66,13 +66,14 @@ namespace CompanyX.Services
 
         /// <summary>
         /// Save order
-        /// TODO, currently domain models saved using temp in memory list object, using EFCore with unitOfWork would manage relation between models
+        ///
         /// </summary>
-        /// <returns></returns>
-        public async Task SaveOrderAsync(OrderModel inputOrder)
+        /// <returns>Order</returns>
+        public async Task<Order> SaveOrderAsync(OrderModel inputOrder)
         {
             Guard.IsNotNull(inputOrder, () => inputOrder);
 
+            Order result = null;
             var order = MapperHelper.MapToOrder(inputOrder);
 
             var lineItems = await _lineItemService.CreateLineItemsAsync(inputOrder?.LineItems).ConfigureAwait(false);
@@ -95,7 +96,11 @@ namespace CompanyX.Services
                 order.AdditionalInfo = _additionalInfoRepository.Get(additionalInfoId);
             }
 
-            _orderRepository.Save(order);
+            var id =_orderRepository.Save(order);
+
+            result = _orderRepository.Get(id);
+
+            return result;
         }
 
         #endregion

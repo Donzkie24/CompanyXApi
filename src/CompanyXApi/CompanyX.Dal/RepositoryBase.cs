@@ -1,9 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using CompanyX.Base.Helpers;
 using CompanyX.Domain;
 
 namespace CompanyX.Dal
 {
+    // TODO, currently domain models saved using temp in memory list object, 
+    //TODO, use EFCore with unitOfWork would manage relation between models
     /// <inheritdoc />
     public class RepositoryBase<T> : IRepository<T> where T : DomainObject
     {
@@ -29,16 +32,15 @@ namespace CompanyX.Dal
         /// <inheritdoc />
         public T Get(int id)
         {
+            Guard.IsNotNull(id, () => id);
+
             return GetAll().SingleOrDefault(a => a.Id == id);
         }
 
         /// <inheritdoc />
         public int Save(T element)
         {
-            if (element == null)
-            {
-                return -1;
-            }
+            Guard.IsNotNull(element, () => element);
 
             T existing = Get(element.Id);
             if (existing != null)
